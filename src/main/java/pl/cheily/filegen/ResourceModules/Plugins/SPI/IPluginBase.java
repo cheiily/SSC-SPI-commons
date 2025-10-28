@@ -13,10 +13,7 @@ public interface IPluginBase {
     @Retention(RetentionPolicy.RUNTIME)
     public static @interface Requires {
         public String[] resourceModules() default {};
-    }
-    @Retention(RetentionPolicy.RUNTIME)
-    public static @interface RequiresCategory {
-        public String resourceModuleCategory() default "";
+        public String[] resourceModuleCategories() default {};
     }
 
     public @NotNull ResourceModuleDefinitionData getInfo();
