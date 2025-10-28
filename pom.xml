@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>one.cheily</groupId>
+    <artifactId>SSC-SPI-commons</artifactId>
+    <version>1.0.0</version>
+
+    <name>SSC SPI commons</name>
+    <description>SPI core that all SSC plugins need to implement.</description>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>cheily</name>
+            <email>cheily.public@gmail.com</email>
+            <url>http://cheily.one</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/cheily/SSC-SPI-commons.git</connection>
+        <developerConnection>scm:git:ssh://github.com/cheily/SSC-SPI-commons.git</developerConnection>
+        <url>http://github.com/cheily/SSC-SPI-commons/tree/main</url>
+    </scm>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>13.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>
